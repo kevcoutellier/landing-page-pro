@@ -59,6 +59,7 @@ button {
   cursor: pointer;
   transition: .3s ease;
   -webkit-transition: all 0.3s;
+  text-decoration: none;
 }
 button:hover {
   -webkit-box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.25);
@@ -355,6 +356,7 @@ button#cont {
 }
 button#cv {
   background-color: #2FDC9C;
+  text-decoration: none;
 }
 
 /* end about */
@@ -627,6 +629,7 @@ button#cv {
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
+  background-color: black;
 }
 
 .image-box:after {
@@ -644,20 +647,14 @@ button#cv {
 }
 
 #cetolike .image-box {
-  background-image: url('../images/cetolike.jpg');
-}
-
-#nature-vie .image-box {
-  background-image: url('../images/nature-vie.jpg');
+  background-image: url(https://res.cloudinary.com/dzlmvhbez/image/upload/v1672774264/MI_wehhw6.png);
 }
 
 #iselection .image-box {
-  background-image: url('../images/iselection-b2c.jpg');
+  background-image: url(https://www.traducta.fr/wp-content/uploads/2015/10/coming-soon-logo_okok.jpg);
 }
 
-#detoxssentiel .image-box {
-  background-image: url('../images/detoxssentiel.jpg');
-}
+
 
 .overlay {
   position: absolute;

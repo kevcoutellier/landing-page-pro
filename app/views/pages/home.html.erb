@@ -109,11 +109,11 @@
                     <a href="#contact"><button class="item" id="cont">
                         Me contacter
                     </button></a>
-                    <button class="item" id="cv" onclick="window.open('home/coutellier/Downloads/CV_alternance.pdf')">
-                        Télécharger mon CV
-                      </button>                      
-                          <a href="/home/coutellier/Downloads/CV_alternance.pdf" download="CV_alternance.pdf">
-                            <button>Télécharger mon CV</button>
+                    <%# <button class="item" id="cv" type="submit" onclick="window.open('public/CV.pdf')">
+                                  Télécharger mon CV
+                              </button> %>
+                              <button class="item" id="cv" type="submit">
+                            <%= link_to 'Télécharger mon CV', download_path, :target => '_blank' %>
                           </a>
                 </div>
             </div>

@@ -109,11 +109,12 @@
                     <a href="#contact"><button class="item" id="cont">
                         Me contacter
                     </button></a>
-                     <%= <button class="item" id="cv" type="submit" onclick="window.open('public/CV_Alternance.pdf')">
+                     <%# <%= <button class="item" id="cv" type="submit" onclick="window.open('public/CV_Alternance.pdf')">
                                   Télécharger mon CV
                               </button> %>
-                              <%# <button class="item" id="cv" type="submit">
-                            <%= link_to 'Télécharger mon CV', 'public/CV_Alternance.pdf', :target => '_blank' %> %>
+                              <button class="item" id="cv" type="submit">
+                            <%= link_to 'Télécharger mon CV', 'public/CV_Alternance.pdf', :target => '_blank' %>
+                        </a>
                 </div>
             </div>
         </section>
@@ -614,11 +615,7 @@
 
 
 
-<script>
-  function downloadCV() {
-    window.open('public/CV_Alternance.pdf');
-  }
-</script>
+
 <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
 <script>
 
